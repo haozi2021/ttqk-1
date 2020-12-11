@@ -11,7 +11,7 @@ public class TiktokVideoVo {
     private String name;//视频名称
     @ApiModelProperty(value = "视频videoKey")
     private String videoKey;//视频名称前20位md5
-    @ApiModelProperty(value = "视频videoKey")
+    @ApiModelProperty(value = "标签ID")
     private Integer tagId;//标签ID
     @ApiModelProperty(value = "标签值")
     private String tagValue;//标签值
