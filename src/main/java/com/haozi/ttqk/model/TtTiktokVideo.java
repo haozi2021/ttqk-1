@@ -18,9 +18,10 @@ public class TtTiktokVideo {
     @Column(name = "ID", unique = true, nullable = false)
     private Integer id;
     private String name;//视频名
+    private String tiktokName;//账号
+    private String tiktokUserName;//账号username
     private String videoKey;//视频名称前20位md5
     private Integer tagId;//标签ID
-    private Long accountId;//tiktok上传者
     private Integer great;//点赞数
     private String date;//日期
     private Integer comment;//评论数
